@@ -1,3 +1,7 @@
+//Fall Mouhamad
+//04/09/2024
+//TP Exploratoire
+
 public class Voyage {
     private int duree;
     private String destination;
