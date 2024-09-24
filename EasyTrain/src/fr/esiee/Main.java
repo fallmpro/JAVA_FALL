@@ -26,5 +26,7 @@ public class Main {
 
         Trajet trajet1 = new Trajet("T123", LocalDateTime.of(2023, 9, 20, 14, 30), LocalDateTime.of(2023, 9, 20, 16, 0));
         System.out.println("Trajet code: " + trajet1.getCode() + ", Temps de départ: " + trajet1.getTempsDepart() + ", Temps d'arrivée: " + trajet1.getTempsArrivee());
+
+
     }
 }
