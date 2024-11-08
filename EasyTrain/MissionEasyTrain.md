@@ -67,4 +67,5 @@ VALUES ('LeLogin', SHA2('lemdp',256),'LeNom' , 'leprenom', 'EMPLOYE', '<date>')
 DELETE FROM utilisateur WHERE id=3 
 DELETE FROM utilisateur WHERE login ='leLogin'
 
+
 ### 5°) Modifier le temps d'arrivée d'un trajet avec son code

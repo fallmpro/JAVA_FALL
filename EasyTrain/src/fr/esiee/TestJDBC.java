@@ -14,7 +14,7 @@ public class TestJDBC {
 
         try {
             Connection conn = DriverManager.getConnection(urlLocal,userLocal,pwdLocal);
-        System.out.println("Connection established");
+            System.out.println("Connexion établie !");
 
 
         } catch (SQLException e) {
