@@ -31,8 +31,8 @@ public class UtilisateurDAO {
 
 
     //Supprimer un user par son id
-    public void deleteUtilisateur(Utilisateur utilisateur){
-    String sql = "DELETE FROM Utilisateur WHERE login = ?";
+    public void deleteUtilisateur(Utilisateur utilisateur) {
+        String sql = "DELETE FROM Utilisateur WHERE login = ?";
         try (Connection connection = getConnection(userLocal, pwdLocal, urlLocal);
              PreparedStatement statement = connection.prepareStatement(sql)) {
 
@@ -50,18 +50,18 @@ public class UtilisateurDAO {
         List<Utilisateur> utilisateurs = new ArrayList<>();
         String sql = "SELECT * FROM utilisateurs";
 
-        try (Connection conn = getConnection();
+        try (Connection conn = getConnection(userLocal, pwdLocal, urlLocal);
              PreparedStatement stmt = conn.prepareStatement(sql);
              ResultSet rs = stmt.executeQuery()) {
 
             while (rs.next()) {
                 Utilisateur utilisateur = new Utilisateur(
                         rs.getInt("id"), // Récupère l'id
-                        rs.getString("prenom"),// Récupère le prénom
+                        rs.getString("prenom"), // Récupère le prénom
                         rs.getString("nom"), // Récupère le nom
-                        rs.getString("login"),// Récupère le login
-                        rs.getString("mdp"),// Récupère le mot de passe
-                        rs.getDate("dateEmbauche").toLocalDate(), // Convertit la date en LocalDate
+                        rs.getString("login"), // Récupère le login
+                        rs.getString("mdp"), // Récupère le mot de passe
+                        rs.getDate("dateEmbauche").toLocalDate() /* Convertit la date en LocalDate */
                 );
                 utilisateurs.add(utilisateur);
             }
@@ -70,6 +70,38 @@ public class UtilisateurDAO {
         }
         return utilisateurs;
     }
+
+
+    public Utilisateur getUtilisateurById(int id) {
+        Utilisateur utilisateur = null;
+        String sql = "SELECT * FROM utilisateurs WHERE id = ?";
+
+        try (Connection conn = getConnection(userLocal, pwdLocal, urlLocal);
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            // Assigner la valeur de l'identifiant au paramètre de la requête
+            stmt.setInt(1, id);
+
+            try (ResultSet rs = stmt.executeQuery()) {
+                if (rs.next()) {
+                    utilisateur = new Utilisateur(
+                            rs.getInt("id"), // Récupère l'id
+                            rs.getString("prenom"), // Récupère le prénom
+                            rs.getString("nom"), // Récupère le nom
+                            rs.getString("login"), // Récupère le login
+                            rs.getString("mdp"), // Récupère le mot de passe
+                            rs.getDate("dateEmbauche").toLocalDate() // Convertit la date en LocalDate
+                    );
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace(); // Affiche les erreurs (à remplacer par un logger en prod)
+        }
+        return utilisateur;
+    }
+
+
+
 }
 
 

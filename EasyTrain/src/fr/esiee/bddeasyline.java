@@ -1,13 +1,12 @@
 package fr.esiee;
 
 import java.sql.*;
-import java.time.LocalDate;
 
 public class bddeasyline {
 
         static DatabaseMetaData DatabaseConnection;
 
-        public static void ajouterUtilisateur(String login, String mdp, String nom, String prenom, LocalDate dateEmbauche, String role) {
+        public static void ajouterUtilisateur(String login, String mdp, String nom, String prenom, String dateEmbauche, String role) {
             Connection connection = null;
             try {
                 connection = DatabaseConnection.getConnection();

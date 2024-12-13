@@ -10,7 +10,7 @@ public class Utilisateur {
     private LocalDate dateEmbauche;
     private Role role;
 
-public Utilisateur(int id, String prenom, String nom, String login, String mdp, LocalDate dateEmbauche, Role role){
+public Utilisateur(int id, String prenom, String nom, String login, String mdp, LocalDate dateEmbauche){
     this.id = id;
     this.login = login;
     this.mdp = mdp;
