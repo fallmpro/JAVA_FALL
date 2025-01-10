@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b60b4280-b213-4014-a7b9-0f82fd0a4f07" name="Changes" comment="Modifications nom classe" />
+    <list default="true" id="b60b4280-b213-4014-a7b9-0f82fd0a4f07" name="Changes" comment="Modifications nom classe">
+      <change afterPath="$PROJECT_DIR$/../JUNIT_FALL/src/main/java/fr/esiee/Devise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet_JUNIT5/src/main/java/fr/esiee/projet_junit5/Devise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EasyTrainFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EasyTrainFX/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,21 +47,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="EasyLine" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="EasyLine" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,6 +73,7 @@
       <workItem from="1730490774397" duration="8000" />
       <workItem from="1730709294542" duration="9000" />
       <workItem from="1731399346292" duration="2000" />
+      <workItem from="1736516151122" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Depôt Voyage.java">
       <option name="closed" value="true" />

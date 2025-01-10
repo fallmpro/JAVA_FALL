@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc99b16-2572-4fab-a44d-1fc9df8f7b43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaFXTest/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="8cc99b16-2572-4fab-a44d-1fc9df8f7b43" name="Changes" comment="Ajout controller appli fxml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/esiee/easytrainfx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/esiee/easytrainfx/EasyTrainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/esiee/easytrainfx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/esiee/easytrainfx/AjoutUtilisateurController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/esiee/easytrainfx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/esiee/easytrainfx/ajoutUtilisateur-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXTest/src/main/java/fr/esiee/javafxtest/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXTest/src/main/java/fr/esiee/javafxtest/EasyTrainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXTest/src/main/java/fr/esiee/javafxtest/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXTest/src/main/java/fr/esiee/javafxtest/AjoutUtilisateurController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXTest/src/main/resources/fr/esiee/javafxtest/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXTest/src/main/resources/fr/esiee/javafxtest/ajoutUtilisateur-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EasyTrainApplication.executor": "Debug",
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EasyTrainApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,10 +64,30 @@
       <workItem from="1734095153353" duration="352000" />
       <workItem from="1734102926789" duration="13000" />
       <workItem from="1734700005356" duration="1507000" />
+      <workItem from="1734707627445" duration="142000" />
+      <workItem from="1736243745318" duration="4000" />
+      <workItem from="1736338862579" duration="50000" />
+      <workItem from="1736338973946" duration="242000" />
+      <workItem from="1736339224000" duration="12000" />
+      <workItem from="1736340810356" duration="1272000" />
+      <workItem from="1736513019032" duration="147000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout controller appli fxml">
+      <option name="closed" value="true" />
+      <created>1734707761919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734707761919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout controller appli fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout controller appli fxml" />
   </component>
 </project>
