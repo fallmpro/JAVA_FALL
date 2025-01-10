@@ -1,11 +1,9 @@
 package fr.esiee;
 
-
 public class Main {
-    Devise euro=new Devise(100, "Dollar");
-
-    int quan= euro.getQuantite();
-    String mon= euro.getMonnaie();
-
-    System.out.println()
+    public static void main(String[] args) {
+        Devise montant = new Devise(100, "euro");
+        System.out.println("Montant: " + montant.getQuantite() + " " + montant.getMonnaie());
+    }
 }
+

@@ -19,7 +19,3 @@ public class Devise {
     }
 }
 
-@Override
-public boolean equals(Object obj) {
-
-}
