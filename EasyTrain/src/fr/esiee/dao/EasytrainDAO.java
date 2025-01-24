@@ -1,6 +1,6 @@
-/*
 
-package fr.esiee;
+
+package fr.esiee.dao;
 
 
 import fr.esiee.dao.ArretDAO;
@@ -38,4 +38,4 @@ public class EasytrainDAO {
         System.out.println("Arrêt avec ID " + idToDelete + " supprimé.");
     }
 }
-*/
+

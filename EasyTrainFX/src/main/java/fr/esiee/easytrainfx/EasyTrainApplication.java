@@ -9,9 +9,10 @@ public class EasyTrainApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ajoutUtilisateur-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 400, 300);
-        primaryStage.setTitle("Ajouter un Utilisateur");
+        // Charge la vue pour l'ajout d'un arrêt
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ajoutArret-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 400, 300);  // Modifie les dimensions de la fenêtre si nécessaire
+        primaryStage.setTitle("Ajouter un Arrêt");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
